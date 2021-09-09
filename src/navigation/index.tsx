@@ -8,7 +8,7 @@ import { RootStackParamList } from '~/types';
 
 import LinkingConfiguration from './LinkingConfiguration';
 
-export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
+export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) : React.ReactElement {
   return (
     <NavigationContainer
       linking={LinkingConfiguration}
