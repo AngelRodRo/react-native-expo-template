@@ -11,4 +11,10 @@ export type RootTabParamList = {
   TabTwo: undefined;
 };
 
-
+export type SlideItemType = {
+  key: number;
+  title: string;
+  text: string;
+  backgroundColor: string;
+  imageSrc: string;
+};
