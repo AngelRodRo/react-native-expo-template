@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { ColorSchemeName } from 'react-native';
 
-import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { RootStackParamList } from '@/types';
-import LinkingConfiguration from '@/navigation/LinkingConfiguration';
-import IntroSlider from '@/screens/IntroSlider';
+import { RootStackParamList } from 'src/types';
+import LinkingConfiguration from 'src/navigation/LinkingConfiguration';
+import IntroSlider from 'src/screens/IntroSlider';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -21,8 +21,7 @@ const RootNavigator = () => {
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
     <NavigationContainer
-      linking={LinkingConfiguration}
-      theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+      linking={LinkingConfiguration}>
       <RootNavigator />
     </NavigationContainer>
   );

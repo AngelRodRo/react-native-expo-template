@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-import { SlideIProps } from '~interfaces';
+import { SlideIProps } from 'src/interfaces';
 
 type containerTypes = {
   bgColor: string;
