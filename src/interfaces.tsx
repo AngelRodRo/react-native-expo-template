@@ -1,4 +1,4 @@
-import { SlideItemType } from '~types';
+import { SlideItemType } from '@/types';
 
 export interface SlideIProps {
     item: SlideItemType;

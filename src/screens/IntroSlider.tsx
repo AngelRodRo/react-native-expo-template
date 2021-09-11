@@ -1,8 +1,8 @@
 import * as React from 'react';
 import AppIntroSlider from 'react-native-app-intro-slider';
 
-import { Slide } from '~components/Slide';
-import { SlideIProps } from '~interfaces';
+import { Slide } from '@/components/Slide';
+import { SlideIProps } from '@/interfaces';
 
 import { slides } from './slides';
 
