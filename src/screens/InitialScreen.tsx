@@ -6,5 +6,5 @@ export default function InitialScreen() {
     <Text style={{ color: 'white' }}>
       Hello world!
     </Text>
-  )
+  );
 }
