@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    "paths": {"src*": ["./src/*"]}, 
+    "paths": {"src*": ["./src/*"]},
   },
   "noImplicitAny": false,
   "exclude": ["node_modules"]
